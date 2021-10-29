@@ -1,6 +1,6 @@
 {
   "name": "@matthill8286/component-icon-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that creates JSX / React components from SVGs",
   "license": "UNLICENSED",
   "repository": {

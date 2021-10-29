@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "target": "es6",
+    "module": "esnext",
+    "lib": ["es2015", "dom", "es6", "es2017", "es2019", "esnext.asynciterable"],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "declaration": false,
+    "baseUrl": ".",
+  },
+  "exclude": ["node_modules"],
+}

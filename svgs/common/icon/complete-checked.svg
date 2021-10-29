@@ -1,0 +1,21 @@
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M10,0 C15.5140625,0 20,4.4859375 20,10 C20,15.5140625 15.5140625,20 10,20 C4.4859375,20 0,15.5140625 0,10 C0,4.4859375 4.4859375,0 10,0 Z M14.9937891,6.71242188 C14.6859375,6.3878125 14.1726953,6.37351563 13.8475781,6.68214844 L13.8475781,6.68214844 L8.67136719,11.5910938 L6.20246094,9.05621094 L6.12692843,8.98774842 C5.81202316,8.736201 5.35237079,8.75241587 5.05597656,9.04109375 C4.73515625,9.35351563 4.72839844,9.86675781 5.04082031,10.1875781 L5.04082031,10.1875781 L8.06785156,13.2954297 L8.15127785,13.3701729 C8.296773,13.4834993 8.47253255,13.5405469 8.64867188,13.5405469 C8.84921875,13.5405469 9.04976563,13.4664844 9.20679688,13.318125 L9.20679688,13.318125 L14.9635547,7.85867188 L15.0329912,7.78410407 C15.2886078,7.47270109 15.2784285,7.0123137 14.9937891,6.71242188 Z" id="path-1"></path>
+    </defs>
+    <g id="COMPLETE-CHECKED-DESIGN-SYSTEM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-527.000000, -856.000000)">
+            <g id="Complete-Icon-complete-checked" transform="translate(527.000000, 856.000000)">
+                <mask id="complete-mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group" mask="url(#complete-mask-2)" fill="#999999">
+                    <g id="COLOR/-black">
+                        <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+                    </g>
+                </g>
+                <g id="Tick" mask="url(#complete-mask-2)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

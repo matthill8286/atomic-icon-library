@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="49px" viewBox="0 0 50 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button bookmark</title>
+    <defs>
+        <path d="M24.9019608,5.71438986 L24.9019608,26.2870682 L16.6666667,18.2865822 L8.43137255,26.2870682 L8.43137255,5.71438986 L24.9019608,5.71438986 L24.9019608,5.71438986 Z M24.9019608,4 L8.43137255,4 C7.4567524,4 6.66666667,4.76755849 6.66666667,5.71438986 L6.66666667,26.2870682 C6.66729404,26.9800055 7.09724326,27.6044414 7.7562584,27.8695346 C8.41527354,28.1346277 9.1737565,27.9882465 9.67843137,27.4985704 L16.6666667,20.5724353 L23.654902,27.4985704 C24.1595768,27.9882465 24.9180598,28.1346277 25.5770749,27.8695346 C26.2360901,27.6044414 26.6660393,26.9800055 26.6666667,26.2870682 L26.6666667,5.71438986 C26.6666667,4.76755849 25.8765809,4 24.9019608,4 Z" id="path-1"></path>
+    </defs>
+    <g id="DESIGN-SYSTEM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-129.000000, -1735.000000)">
+            <g id="Button-bookmark" transform="translate(130.833333, 1736.000000)">
+                <g id="Icon/Bookmark" transform="translate(7.166667, 8.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#000000" xlink:href="#path-1"></use>
+                    <g id="Group" mask="url(#mask-2)" fill="#999999">
+                        <g id="COLOR/-black">
+                            <rect id="Rectangle-2-Copy-3" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                    </g>
+                </g>
+                <circle id="Oval" stroke="#979797" stroke-width="2" cx="23.5" cy="23.5" r="23.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

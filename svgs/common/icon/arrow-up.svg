@@ -1,0 +1,20 @@
+<svg width="10px" height="7px" viewBox="0 0 10 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="6.175 12.8416667 10 9.025 13.825 12.8416667 15 11.6666667 10 6.66666667 5 11.6666667"></polygon>
+    </defs>
+    <g id="ARROW-UP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-532.000000, -754.000000)">
+            <g id="Icon-arrow-up" transform="translate(527.000000, 748.000000)">
+                <mask id="arrow-mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                <g id="Group" mask="url(#arrow-mask-2)" fill="#999999">
+                    <g id="COLOR/-black">
+                        <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

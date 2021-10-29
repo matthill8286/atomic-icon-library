@@ -1,0 +1,20 @@
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M14.9937891,6.71242188 C14.6859375,6.3878125 14.1726953,6.37351563 13.8475781,6.68214844 L8.67136719,11.5910938 L6.20246094,9.05621094 C5.88976563,8.73539063 5.37707031,8.72835938 5.05597656,9.04109375 C4.73515625,9.35351563 4.72839844,9.86675781 5.04082031,10.1875781 L8.06785156,13.2954297 C8.22648438,13.4583984 8.43730469,13.5405469 8.64867188,13.5405469 C8.84921875,13.5405469 9.04976563,13.4664844 9.20679688,13.318125 L14.9635547,7.85867188 C15.2883984,7.55054688 15.3021484,7.03730469 14.9937891,6.71242188 Z" id="path-1"></path>
+    </defs>
+    <g id="TICK-SYSTEM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-531.000000, -898.000000)">
+            <g id="Icon-complete-checked-Copy" transform="translate(527.000000, 892.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group" mask="url(#mask-2)" fill="#999999">
+                    <g id="COLOR/-black">
+                        <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

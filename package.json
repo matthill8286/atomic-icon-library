@@ -1,6 +1,6 @@
 {
   "name": "@matthill8286/atomic-icon-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library that creates JSX / React components from SVGs",
   "license": "UNLICENSED",
   "repository": {

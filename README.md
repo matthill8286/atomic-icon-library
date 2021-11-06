@@ -59,7 +59,7 @@ Thats it you can now use your svg react component :)
 
 ## Usage
 
-You can use a named import like `import { IconsMaterialArrow } from @excelwithbusiness/webmobile-svg-library`.
+You can use a named import like `import { IconsMaterialArrow } from @matthill8286/atomic-icon-library`.
 
 ## What is under the hood
 

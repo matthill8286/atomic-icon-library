@@ -86,7 +86,7 @@ export async function extractPaths(data: string) {
 /**
  * checks wether the icon exists for content intelligence
  * then renders the multi product line icon
- * if it does not exist it takes the filtered one (default)
+ * if it does not exist it takes the primary one (default)
  * @param fileData the raw svg data
  * @param outputFileDir output file dir
  * @param svgPath input file path
@@ -98,11 +98,11 @@ export const getProductLineComponent = async (
     svgPath: string,
     componentTemplate: string
 ) => {
-  const filteredExtractedPaths = await extractPaths(fileData)
+  const primaryExtractedPaths = await extractPaths(fileData)
   let danoneExtractedPaths = null
   // apply content path to the template if content icon exits
   try {
-    const contentFilePath = svgPath.replace('/filtered/', '/content/')
+    const contentFilePath = svgPath.replace('/primary/', '/content/')
     const contentSvgExists = await fse.pathExists(contentFilePath)
     if (contentSvgExists) {
       const contentFileData = await fse.readFile(contentFilePath, { encoding: 'utf8' })
@@ -112,10 +112,10 @@ export const getProductLineComponent = async (
     console.log('CONTENT Svg could not be applied', error)
   }
 
-  danoneExtractedPaths = danoneExtractedPaths ? danoneExtractedPaths : filteredExtractedPaths
+  danoneExtractedPaths = danoneExtractedPaths ? danoneExtractedPaths : primaryExtractedPaths
 
   return render(componentTemplate, {
-    filteredExtractedPaths,
+    primaryExtractedPaths,
     danoneExtractedPaths,
   })
 }
@@ -133,7 +133,7 @@ export const worker = async (
   // e.g. logos/ (we strip unneeded folders away)
   const innerDestPath = svgPathObj.dir
     .replace(options.svgBaseDir, '')
-    .replace(/(common\/|filtered\/)/g, '')
+    .replace(/(common\/|primary\/)/g, '')
   // e.g. src/components/common/logos
   const outputFileDir = path.join(options.outputDir, innerDestPath)
   // e.g. AppleLogo.tsx

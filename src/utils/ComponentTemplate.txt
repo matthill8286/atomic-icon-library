@@ -1,4 +1,4 @@
 import  React from 'react';
 import getSvgComponent from '../../utils/GetSvgComponent';
 
-export default getSvgComponent({ filteredPaths: {{{filteredExtractedPaths}}}, danonePaths: {{{danoneExtractedPaths}}}})
+export default getSvgComponent({ primaryPaths: {{{primaryExtractedPaths}}}, danonePaths: {{{danoneExtractedPaths}}}})

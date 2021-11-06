@@ -2,7 +2,7 @@ import React from 'react'
 import getSvgComponent from '../../utils/GetSvgComponent'
 
 export default getSvgComponent({
-  filteredPaths: (
+  primaryPaths: (
     <React.Fragment>
       <defs>
         <path

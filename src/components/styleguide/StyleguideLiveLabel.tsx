@@ -2,7 +2,7 @@ import React from 'react'
 import getSvgComponent from '../../utils/GetSvgComponent'
 
 export default getSvgComponent({
-  filteredPaths: (
+  primaryPaths: (
     <React.Fragment>
       <rect x=".5" y=".5" width="61" height="22" rx="4.5" fill="url(#paint0_linear)" />
       <circle cx="13" cy="11.5" r="4" fill="#fff" />

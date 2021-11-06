@@ -21,7 +21,7 @@ describe('Components builder', () => {
   describe('buildComponents', () => {
     const options = {
       svgBaseDir: 'mocks/svgs',
-      svgFilter: 'mocks/svgs/*(common|filtered)/**/*.svg',
+      svgFilter: 'mocks/svgs/*(common|primary)/**/*.svg',
       outputDir: '',
       templateFile: 'ComponentTemplate.txt',
       prettierConfigPath: '.prettierrc.js',
@@ -57,7 +57,7 @@ describe('Components builder', () => {
           prettier.resolveConfig(options.prettierConfigPath)
         )
         await worker(
-          'mocks/svgs/filtered/styleguide/add.svg',
+          'mocks/svgs/primary/styleguide/add.svg',
           options.templateFile,
           options,
           prettierConfig

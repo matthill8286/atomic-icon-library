@@ -1,30 +1,28 @@
-# @matthill8286/component-icon-library
+# @matthill8286/atomic-icon-library
 
 Provides all our SVGs as react components.
 
 ## Overall goal of this lib
 
-Having a 3rd party plugin which built the SVGs during bundling was very handy because it came with almost no effort. But it does not solve an issue with having different SVGs for each theme (or product line).
+Having a 3rd party plugin which built the SVGs during bundling is very handy because and it comes with almost no effort. But it does not solve an issue with having different SVGs for each theme (or product line).
 
 You'd need to decide on which icon to use on the component level like so:
 
 ```typescript
     case 'bookmark':
-      return isFiltered ? <SvgBookmarkFiltered /> : <SvgBookmarkContent />
+      return isPrimary ? <SvgBookmarkPrimary /> : <SvgBookmarkContent />
     case 'history':
-      return isContent ? <SvgHistoryContent /> : <SvgHistoryFiltered />
-    case 'home':
-      return isDanone ? <SvgHomeDanone /> : <SvgHomeContent />
+      return isContent ? <SvgHistoryContent /> : <SvgHistoryPrimary />
 ```
 
 These are just some loose icons. But we could have a different icon set for the content theme with a number of icons.
 One of these is e.g. the `Arrow` icon which would be used over 20 times, which would be 20 implemented if else cases:
 
 ```html
-const isFiltered = useContext(ThemeContext)
+const isPrimary = useContext(ThemeContext)
 
 <Icon>
- {isFiltered ? <SvgArrowFiltered /> : <SvgArrowContent />}
+ {isPrimary ? <SvgArrowPrimary /> : <SvgArrowContent />}
 </Icon>
 ```
 
@@ -43,12 +41,12 @@ The Icon decides for itself which theme to use.
 The svgs folder currently holds 3 different categories:
 
 * common
-* filtered
+* primary
 * content
 
 `common` includes the `logos` and `other` icons, which are converted into normal react components. They are not aware of the product line atm. For them nothing changes, they still need the manual product line check (it can be implemented in the future). If you have e.g. a logo / other svg just put it in the logos folder.
 
-If you have a styleguide icon you can put it in the `filtered/styleguide` folder. If the icon also exists for content you can put the content one into `content/styleguide`. These two SVGs will be combined into a react component which is aware of the theme and decides which svg path to use during runtime.
+If you have a styleguide icon you can put it in the `primary/styleguide` folder. If the icon also exists for content you can put the content one into `content/styleguide`. These two SVGs will be combined into a react component which is aware of the theme and decides which svg path to use during runtime.
 
 Once you added your svg...
 
@@ -69,14 +67,14 @@ The components are prebuild with the `buildComponents.ts` script. It uses a [que
 
 Based on the folder the worker decides on how to convert the svg. `common` SVGs are converted with [svgo](https://github.com/svg/svgo) and [svgr](https://github.com/gregberge/svgr). Th output is the `src/components/**` directory.
 
-`filtered` and `content` are combined into one component. This is done by extracting the paths and adding them into a `mustache` template which is basically a function that returns the svg react component. The output looks like this:
+`primary` and `content` are combined into one component. This is done by extracting the paths and adding them into a `mustache` template which is basically a function that returns the svg react component. The output looks like this:
 
 ```html
 import * as React from 'react'
 import getSvgComponent from '../../../src/utils/GetSvgComponent'
 
 export default getSvgComponent({
-  filteredPaths: (
+  primaryPaths: (
     <path d="somePath" />
   ),
   danonePaths: (
@@ -95,4 +93,4 @@ which renders a component that returns jsx with the path based on the product li
 
 ## Todos
 
-Eventually add product line support for logos / other if needed i.e Filtered, Danone, P&G, EHA etc
+Eventually add product line support for logos / other if needed i.e Primary, Danone, P&G, EHA etc

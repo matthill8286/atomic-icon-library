@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/call</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/call" fill="#000000" fill-rule="evenodd">
+        <path d="M32.9102,41.9376 C30.2662,41.9376 27.6622,41.2816 25.3342,40.0296 L22.4782,38.4956 C16.9482,35.5216 12.4142,30.9896 9.4422,25.4616 L7.9082,22.6076 C6.6562,20.2776 6.0002,17.6756 6.0002,15.0296 L6.0002,10.9416 L11.9462,4.9996 L18.1882,15.7256 L12.7882,21.1256 L14.4162,24.1536 C16.5522,28.1296 19.8122,31.3876 23.7862,33.5216 L26.8162,35.1516 L32.2102,29.7576 L42.9382,35.9996 L37.0002,41.9376 L37.0002,41.9376 L32.9102,41.9376 Z" id="call" fill="#000000"></path>
+    </g>
+</svg>

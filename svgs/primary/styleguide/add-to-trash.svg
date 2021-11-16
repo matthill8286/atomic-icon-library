@@ -1,1 +1,9 @@
-<svg id="Layer_1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>add_to_trash</title><path d="M5,8l.87,12.14a2,2,0,0,0,2,1.86h8.28a2,2,0,0,0,2-1.86L19,8Zm11,7.5a.5.5,0,0,1-.5.5H13v2.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V16H8.5a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5H11V11.5a.5.5,0,0,1,.5-.5h1a.5.5,0,0,1,.5.5V14h2.5a.5.5,0,0,1,.5.5ZM19.5,4H15V3a1,1,0,0,0-1-1H10A1,1,0,0,0,9,3V4H4.5a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5v-1A.5.5,0,0,0,19.5,4Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/add-to-trash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/add-to-trash" fill="#000000" fill-rule="evenodd">
+        <path d="M18,4 L18,8 L8,8 L8,12 L40,12 L40,8 L29.998,8 L29.998,4 L18,4 Z M9.998,15.998 L11.998,44 L36,44 L38,15.998 L9.998,15.998 Z M17.042,28.26 L22.26,28.26 L22.26,23.044 L25.738,23.044 L25.738,28.26 L30.954,28.26 L30.954,31.738 L25.738,31.738 L25.738,36.956 L22.26,36.956 L22.26,31.738 L17.042,31.738 L17.042,28.26 Z" id="add-to-trash" fill="#000000"></path>
+    </g>
+</svg>

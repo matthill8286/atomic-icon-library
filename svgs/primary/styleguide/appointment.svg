@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/appointment</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/appointment" fill="#000000" fill-rule="evenodd">
+        <path d="M32,5 L32,9 L16.002,9 L16.002,5 L12,5 L12,9 L6,9 L6,43 L42,43 L42,9 L36.002,9 L36.002,5 L32,5 Z M10,39 L38,39 L38,17 L10,17 L10,39 Z M18.704,30.2372 L21.88,33.4132 L29.3,25.9932 L29.302,25.9952 L31.78,23.5172 L31.074,22.8092 C31.072,22.8092 31.072,22.8072 31.072,22.8072 L30.01,21.7472 L30.01,21.7452 L29.302,21.0372 L26.824,23.5172 L26.826,23.5192 L21.88,28.4652 L19.406,25.9892 L19.4,25.9872 L18.698,25.2832 L17.998,25.9852 C17.996,25.9872 17.994,25.9872 17.992,25.9892 L16.93,27.0492 C16.926,27.0532 16.926,27.0552 16.924,27.0592 L16.22,27.7632 L18.698,30.2412 L18.704,30.2372 Z" id="appointment" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/browser-windows</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/browser-windows" fill="#000000" fill-rule="evenodd">
+        <path d="M2,34 L38,34 L38,6 L2,6 L2,34 Z M6,30 L34,30 L34,14 L6,14 L6,30 Z M42,14 L42,38 L10,38 L10,42 L46,42 L46,14 L42,14 Z" id="browser-windows" fill="#000000"></path>
+    </g>
+</svg>

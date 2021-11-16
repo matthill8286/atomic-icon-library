@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/appointment-cancelled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/appointment-cancelled" fill="#000000" fill-rule="evenodd">
+        <path d="M16.002,4 L16.002,8 L32,8 L32,4 L36.002,4 L36.002,8 L42,8 L42,42 L6,42 L6,8 L12,8 L12,4 L16.002,4 Z M38,16 L10,16 L10,38 L38,38 L38,16 Z M27.9408,19.5874 L30.4168,22.0614 L26.4748,25.9994 L30.4168,29.9354 L27.9408,32.4094 L24.0008,28.4754 L20.0608,32.4134 L17.5848,29.9374 L21.5268,25.9994 L17.5888,22.0614 L20.0628,19.5874 L24.0008,23.5254 L27.9408,19.5874 Z" id="appointment-cancelled" fill="#000000"></path>
+    </g>
+</svg>

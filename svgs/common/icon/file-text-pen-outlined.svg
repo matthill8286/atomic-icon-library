@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 80 80" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" 
+    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="80" height="80" style="fill:none;"/>
+    <path d="M14.381,11.535l22.772,0l0,5.693l-22.772,0l0,-5.693Zm0,11.386l34.159,0l0,5.693l-34.159,0l0,-5.693Zm0,34.158l17.079,0l0,5.693l-17.079,0l0,-5.693Zm45.545,-56.931l-4.27,12.81l-11.141,-11.141c-1.071,-1.071 -2.517,-1.669 -4.025,-1.669l-31.802,0c-3.143,0 -5.693,2.551 -5.693,5.694l0,68.316c0,3.143 2.55,5.694 5.693,5.694l45.545,0c3.142,0 5.693,-2.551 5.693,-5.694l0,-17.079l17.079,-51.237l-17.079,-5.694l0,0Zm-5.693,74.01l-45.545,0l0,-68.316l34.159,0l0,11.386l11.386,0l-5.693,17.079l-34.159,0l0,5.693l32.263,0l-1.902,5.693l-30.361,0l0,5.693l28.466,0l4.554,17.079l6.832,-6.211l0,11.904Zm0.763,-20.29l-6.212,-2.3l14.746,-44.218l6.279,2.09l-14.813,44.428Z" style="fill-rule:nonzero;"/>
+</svg>

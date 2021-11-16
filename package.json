@@ -18,7 +18,7 @@
   "scripts": {
     "build": "yarn clean && BABEL_ENV=build NODE_ENV=production run-p build:babel generate:dts",
     "automate:build": "./scripts/build.sh && ./scripts/release.sh",
-    "build:babel": "babel  src --out-dir dist --config-file ./babel.config.js --source-maps --extensions .ts,.tsx,.js --no-comments",
+    "build:babel": "babel src --out-dir dist --config-file ./babel.config.js --source-maps --extensions .ts,.tsx,.js --no-comments",
     "build:svg": "rimraf -rf ./src/components && UV_THREADPOOL_SIZE=64 babel-node --extensions .ts,.tsx,.js,.jsx --config-file ./babel.config.js ./build.ts && yarn build",
     "bump:patch": "npm version patch",
     "bump:minor": "npm version minor",

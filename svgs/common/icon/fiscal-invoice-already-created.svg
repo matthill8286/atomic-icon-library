@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="150px" viewBox="0 0 184 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>graph</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.286275 0 0 0 0 0.278431 0 0 0 0 0.270588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Request-a-fiscal-invoice-email-solution" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="order_history_fiscal_invoice_popup_issued_desktop" transform="translate(-525.000000, -263.000000)">
+            <g id="overlays/desktop/small" transform="translate(0.000000, 136.000000)">
+                <g id="Group" transform="translate(440.000000, 48.000000)">
+                    <g id="graph" transform="translate(86.000000, 80.000000)">
+                        <g id="circle-copy-2" transform="translate(24.898136, 16.885906)">
+                            <ellipse id="Oval" fill-opacity="0.1" fill="#DF0000" cx="65.5968954" cy="61.3445811" rx="55.5968954" ry="55.3445811"></ellipse>
+                            <ellipse id="Oval" stroke="#FBE5E5" cx="65.219435" cy="61.7304943" rx="62.0119218" ry="61.7304943"></ellipse>
+                            <ellipse id="Oval" stroke="#FBE5E5" cx="62.0119218" cy="61.7304943" rx="62.0119218" ry="61.7304943"></ellipse>
+                        </g>
+                        <g id="add-copy-3" opacity="0.5" stroke="#DF0000" stroke-width="2">
+                            <g id="add2-copy-2" transform="translate(10.069913, 0.000000)">
+                                <ellipse id="Oval" cx="96.6162219" cy="3.9525363" rx="3.94411269" ry="3.9525363"></ellipse>
+                                <ellipse id="Oval" cx="6.69045249" cy="140.710292" rx="3.94411269" ry="3.9525363"></ellipse>
+                                <line x1="0.394411269" y1="95.7744515" x2="9.63391502" y2="103.181841" id="Line" stroke-linecap="square"></line>
+                                <line x1="121.395664" y1="140.094927" x2="130.635168" y2="147.502317" id="Line" stroke-linecap="square"></line>
+                                <line x1="126.041365" y1="27.2985352" x2="135.280869" y2="34.7059247" id="Line" stroke-linecap="square"></line>
+                            </g>
+                            <g id="add-copy-4" transform="translate(0.000000, 10.962963)">
+                                <polygon id="Polygon" points="4.35286145 26.8742102 8.4926787 29.8781197 6.91140922 34.7385475 1.79431368 34.7385475 0.213044203 29.8781197"></polygon>
+                                <line x1="20.9728779" y1="0" x2="30.2429154" y2="7.40655266" id="Line" stroke-linecap="square"></line>
+                                <polygon id="Polygon" points="160.264444 98.8022434 164.404262 101.806153 162.822992 106.666581 157.705897 106.666581 156.124627 101.806153"></polygon>
+                                <ellipse id="Oval" cx="177.280175" cy="36.3592256" rx="3.95714677" ry="3.95208974"></ellipse>
+                            </g>
+                        </g>
+                        <g filter="url(#filter-1)" id="invoice_1" stroke-linecap="round" stroke-linejoin="round">
+                            <g transform="translate(66.000000, 45.000000)">
+                                <path d="M37.4489164,0 L5.3498452,0 C2.39520728,0 0,2.38781467 0,5.33333333 L0,58.6666667 C0,61.6121853 2.39520728,64 5.3498452,64 L45.4736842,64 C48.4283221,64 50.8235294,61.6121853 50.8235294,58.6666667 L50.8235294,13.3333333 L37.4489164,13.3333333 L37.4489164,0 Z" id="Path" stroke="#262626" stroke-width="3"></path>
+                                <polygon id="Path" stroke="#262626" stroke-width="3" points="37.6470588 0 37.6470588 13.1764706 50.8235294 13.1764706"></polygon>
+                            </g>
+                        </g>
+                        <g id="icons/send-outlined" transform="translate(73.000000, 65.000000)" fill="#DF0000" stroke="#FBE5E5">
+                            <path d="M35.72,1.79999996 L35.2,1.27999996 C35.0121335,1.09891481 34.7609276,0.998432485 34.5,0.999999962 C34.3876089,0.979333116 34.2723912,0.979333116 34.16,0.999999962 L0.659999964,13 C0.235008967,13.1520779 -0.0354179327,13.5700104 -3.75001439e-08,14.02 L-3.75001439e-08,14.34 C8.36645884e-05,14.7327566 0.225665227,15.0905756 0.579999964,15.26 L14.96,22.04 L21.74,36.42 C21.9094244,36.7743348 22.2672434,37 22.66,37 L22.98,37 C23.4010301,37 23.7768498,36.7359475 23.92,36.34 L36,2.83999997 C36.11727,2.46838889 36.0079927,2.06250189 35.72,1.79999996 Z M22.46,28.56 L20,23.24 C19.3049854,21.7657262 19.5739905,20.0171932 20.68,18.82 L23.8,15.44 C24.1682542,15.0537017 24.1682542,14.4462983 23.8,14.06 L23.04,13.3 C22.6537017,12.9317458 22.0462983,12.9317458 21.66,13.3 L18.28,16.42 C17.0415128,17.5365786 15.2402765,17.7677107 13.76,17 L8.43999998,14.54 L30.3,6.69999997 L22.46,28.56 Z" id="send-outlined"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

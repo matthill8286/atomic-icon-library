@@ -1,1 +1,9 @@
-<svg id="Layer_1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bookmark_outlined</title><path d="M18,4V19.19l-4.41-2.75a3,3,0,0,0-3.18,0L6,19.19V4H18m0-2H6A2,2,0,0,0,4,4V21a1,1,0,0,0,1,1,1,1,0,0,0,.53-.15l5.94-3.72a1,1,0,0,1,1.06,0l5.94,3.72A1,1,0,0,0,19,22a1,1,0,0,0,1-1V4a2,2,0,0,0-2-2Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/bookmark-outlined</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/bookmark-outlined" fill="#000000" fill-rule="evenodd">
+        <path d="M40,4 L40,45.606 L24,35.606 L8,45.606 L8,4 L40,4 Z M36,8 L12,8 L12,38.389 L24,30.8890094 L36,38.39 L36,8 Z" id="bookmark-outlined" fill="#000000"></path>
+    </g>
+</svg>

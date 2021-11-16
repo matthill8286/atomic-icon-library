@@ -1,1 +1,9 @@
-<svg id="Layer_1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>add</title><path d="M19,11.5v1a.5.5,0,0,1-.5.5H13v5.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V13H5.5a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5H11V5.5a.5.5,0,0,1,.5-.5h1a.5.5,0,0,1,.5.5V11h5.5A.5.5,0,0,1,19,11.5Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/add" fill="#000000" fill-rule="evenodd">
+        <polygon id="add" fill="#000000" points="22 10 22 22 10 22 10 26 22 26 22 38 26 38 26 26 38 26 38 22 26 22 26 10"></polygon>
+    </g>
+</svg>

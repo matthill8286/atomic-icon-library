@@ -1,6 +1,6 @@
 # @matthill8286/atomic-icon-library
 
-Provides all our SVGs as react components.
+Builds all SVGs as react components.
 
 ## Overall goal of this lib
 
@@ -43,8 +43,6 @@ The svgs folder currently holds 3 different categories:
 * common
 * primary
 * content
-
-`common` includes the `logos` and `other` icons, which are converted into normal react components. They are not aware of the product line atm. For them nothing changes, they still need the manual product line check (it can be implemented in the future). If you have e.g. a logo / other svg just put it in the logos folder.
 
 If you have a styleguide icon you can put it in the `primary/styleguide` folder. If the icon also exists for content you can put the content one into `content/styleguide`. These two SVGs will be combined into a react component which is aware of the theme and decides which svg path to use during runtime.
 
@@ -90,7 +88,3 @@ which renders a component that returns jsx with the path based on the product li
       {pathProps[name]}
     </svg>
 ```
-
-## Todos
-
-Eventually add product line support for logos / other if needed i.e Primary, Danone, P&G, EHA etc

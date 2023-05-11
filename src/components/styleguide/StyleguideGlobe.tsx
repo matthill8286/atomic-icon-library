@@ -19,7 +19,7 @@ export default getSvgComponent({
       </g>
     </React.Fragment>
   ),
-  danonePaths: (
+  alternate: (
     <React.Fragment>
       <defs>
         <path

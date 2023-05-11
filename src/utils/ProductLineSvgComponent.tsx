@@ -4,14 +4,14 @@ import { ThemeContext } from 'styled-components'
 
 interface ProductLineSvgComponentProps extends React.SVGProps<SVGSVGElement> {
   primaryPaths: JSX.Element
-  danonePaths?: JSX.Element
+  alternate?: JSX.Element
 }
 
 export const ProductLineSvgComponent = (props: ProductLineSvgComponentProps) => {
-  const { name }: { name: 'Primary' | 'Danone' } = useContext(ThemeContext)
+  const { name }: { name: 'Primary' | 'Alternate' } = useContext(ThemeContext)
   const pathProps = {
     Primary: props.primaryPaths,
-    Danone: props.danonePaths,
+    Alternate: props.alternate,
   }
 
   return (

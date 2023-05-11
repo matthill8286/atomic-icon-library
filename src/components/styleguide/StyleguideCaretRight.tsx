@@ -5,7 +5,7 @@ export default getSvgComponent({
   primaryPaths: (
     <path transform="scale(0.5, 0.5)" d="M30.752 24.252l-10.504-10.5v21z" fillRule="evenodd" />
   ),
-  danonePaths: (
+  alternate: (
     <path transform="scale(0.5, 0.5)" d="M30.752 24.252l-10.504-10.5v21z" fillRule="evenodd" />
   ),
 })

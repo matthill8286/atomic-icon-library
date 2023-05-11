@@ -9,7 +9,7 @@ export default getSvgComponent({
       fillRule="evenodd"
     />
   ),
-  danonePaths: (
+  alternate: (
     <path
       transform="scale(0.5, 0.5)"
       d="M22 10v12H10v4h12v12h4V26h12v-4H26V10z"

@@ -10,7 +10,7 @@ export default getSvgComponent({
       d="M20 10.2l20 14-20 14v-28zm-4 2v24h-4v-24h4z"
     />
   ),
-  danonePaths: (
+  alternate: (
     <path
       transform="scale(0.5, 0.5)"
       fill="#F2F3F4"

@@ -25,7 +25,7 @@ export default getSvgComponent({
       </defs>
     </React.Fragment>
   ),
-  danonePaths: (
+  alternate: (
     <React.Fragment>
       <rect x=".5" y=".5" width="61" height="22" rx="4.5" fill="url(#paint0_linear)" />
       <circle cx="13" cy="11.5" r="4" fill="#fff" />

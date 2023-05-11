@@ -98,25 +98,25 @@ export const getProductLineComponent = async (
     svgPath: string,
     componentTemplate: string
 ) => {
-  const primaryExtractedPaths = await extractPaths(fileData)
-  let danoneExtractedPaths = null
+  const primaryExtractedPaths = await extractPaths(fileData) 
+  let alternateExtractedPaths = null
   // apply content path to the template if content icon exits
   try {
     const contentFilePath = svgPath.replace('/primary/', '/content/')
     const contentSvgExists = await fse.pathExists(contentFilePath)
     if (contentSvgExists) {
       const contentFileData = await fse.readFile(contentFilePath, { encoding: 'utf8' })
-      danoneExtractedPaths = await extractPaths(contentFileData)
+      alternateExtractedPaths = await extractPaths(contentFileData)
     }
   } catch (error) {
     console.log('CONTENT Svg could not be applied', error)
   }
 
-  danoneExtractedPaths = danoneExtractedPaths ? danoneExtractedPaths : primaryExtractedPaths
+  alternateExtractedPaths = alternateExtractedPaths ? alternateExtractedPaths : primaryExtractedPaths
 
   return render(componentTemplate, {
     primaryExtractedPaths,
-    danoneExtractedPaths,
+    alternateExtractedPaths,
   })
 }
 

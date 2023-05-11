@@ -12,7 +12,7 @@ export default getSvgComponent({
       </g>
     </React.Fragment>
   ),
-  danonePaths: (
+  alternate: (
     <React.Fragment>
       <g fill="none" fillRule="evenodd">
         <circle fill="#979797" cx="4" cy="4" r="4" />

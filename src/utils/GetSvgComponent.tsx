@@ -3,12 +3,12 @@ import { ProductLineSvgComponent } from './ProductLineSvgComponent'
 
 interface ProductLineSvgComponentProps {
   primaryPaths: JSX.Element
-  danonePaths?: JSX.Element
+  alternate?: JSX.Element
 }
 
-const getSvgComponent = ({ primaryPaths, danonePaths }: ProductLineSvgComponentProps) => {
+const getSvgComponent = ({ primaryPaths, alternate }: ProductLineSvgComponentProps) => {
   const Component = (props: React.SVGProps<SVGSVGElement>) => (
-    <ProductLineSvgComponent {...props} primaryPaths={primaryPaths} danonePaths={danonePaths} />
+    <ProductLineSvgComponent {...props} primaryPaths={primaryPaths} alternate={alternate} />
   )
 
   return React.memo(Component)

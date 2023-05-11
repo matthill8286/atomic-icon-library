@@ -13,7 +13,7 @@ export default getSvgComponent({
       <use xlinkHref="#a" />
     </React.Fragment>
   ),
-  danonePaths: (
+  alternate: (
     <React.Fragment>
       <defs>
         <path
